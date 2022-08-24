@@ -1,1 +1,1 @@
-print("Hello world! I have come to conquer you!!!!"); 
+print("Sad ending, goodbye world! *explodes*");
