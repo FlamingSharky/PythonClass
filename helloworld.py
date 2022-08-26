@@ -1,2 +1,2 @@
 print("Hello world! I have come to conquer you!!!!");
-print("To kill a mockingbird page 174 line 8 word 3");
+print("Among Us in real life [sus sus] among us in real life [sus sus] playing among us in real life, spaceship with my crew - gonna split up, spread out 'cause we all got tasks to do - gotta find the imposter as they try to sabotage - who can we trust in this among gus entourage?")
