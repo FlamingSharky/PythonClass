@@ -35,16 +35,13 @@
     "Note6": "Cities",
     "Note6.5": {
         "Egypt": "5 thousand years ago, Egypt was divided from north to south and one of the oldest years ago.",
-        "Library of Alexandria": "Napoleon is such a stupid man who decided to burn down the library of all the information that we could have used today."
+        "Library of Alexandria": "Napoleon is such a stupid man who decided to burn down the library of all the information that we could have used today.",
+        "Tenochitlan": "Manmade Island where Mexico City currently is. Home of 250,000 people. One of the few giant cities in the Americas.",
+        "Cahokia": "Located in the Missisipi River and had around 40,000 people living in it."
     },
 
-    "Note7": "3",
-    "Note8": "3",
-    "Note9": "3",
-    "Note10": "3",
-    "Note11": "3",
-    "Note12": "3",
-    "Note13": "3",
-    "Note14": "3",
-    "Note15": "3"
+    "Note7": "Human Genetics",
+    "Note7.5": {
+        "Ancient DNA": "Ancient DNA is based on people we can even extract DNA from but we only know so much. Barely any or none at all is from North America, most of it is found in South America."
+    }
 }
