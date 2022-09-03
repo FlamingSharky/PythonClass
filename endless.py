@@ -1,14 +1,15 @@
 import random
 
 timer = int(1)
-number = int(random.randint(1, 9))
+number = int(random.randint(1, 1))
 randomascii = int(random.randint(1, 3))
 eagle = "  _\|           |/_   " + "\n"\
       + "_-  \_  _/^=>  _/  -_ " + "\n"\
       + "-_   `-'(   )`-'    _- " + "\n"\
       + "`=.__.=-(   )-=.__.='  " + "\n"\
       + "        |/-\|          " + "\n"\
-      + "        Y   Y         "
+      + "        Y   Y         " + "\n"\
+      + "        ^   ^         "
 guess = int(input("Guess the number! 1 through 9, let's see if you get it right! Your number: "))
 showguess = str(guess)
 shownumber = str(number)
